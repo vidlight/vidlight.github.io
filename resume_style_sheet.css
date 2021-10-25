@@ -24,6 +24,7 @@ body{
 	text-decoration: none;
 	border-left: 3px solid #FFFFFF;
 	overflow: hidden;
+	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 .navigationBar a{
 	color: #000000;
@@ -54,6 +55,7 @@ body{
 	color: #000000;
 	border-radius: 90%;
 	text-align: center;
+	font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 .data-block{
 	width: 30%;
@@ -66,17 +68,11 @@ body{
 	text-align: center;
 }
 
-
 /* img styling */
-#uw-logo{
-	width: 75%;
-	height: 75%;
-	margin: 12%;
-}
-
-#li-logo{
+#li-logo, #pf-pic, #uw-logo {
 	width: 60%;
 	display: block;
 	margin-left: auto;
+	margin-top: 10%;
 	margin-right: auto;
 }
