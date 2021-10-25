@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #c0c0c0;
+}
+/*Navigation Bar*/
+.wrapper{
+	float: right;
+	background-color: #000000;
+	width: 2%;
+	height: 100vh;
+}
+.wrapper:hover {
+	width: 10%;
+}
+.navigationBar{
+	margin-top: 40%;
+	padding-left: 5%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	border-left: 3px solid #FFFFFF;
+	overflow: hidden;
+}
+.navigationBar a{
+	color: #000000;
+	font-size: 120%;
+}
+.navigationBar a:hover{
+	color: #FFFFFF;
+}
+
+/*all tabs*/
+.flexWrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3%;
+
+}
+.flexWrapper > div{
+	padding-top: 2%;
+	margin: 0 2% 2% 2%;
+}
+
+
+.webpage-header{
+	width: 50%;
+	padding: 2.5%;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 90%;
+	text-align: center;
+}
+.data-block{
+	width: 30%;
+	padding: 3%;
+	background-color: #FFFFFF;
+	border-radius: 2%;
+}
+
+.data-header{
+	text-align: center;
+}
+
+
+/* img styling */
+#uw-logo{
+	width: 75%;
+	height: 75%;
+	margin: 12%;
+}
+
+#li-logo{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
